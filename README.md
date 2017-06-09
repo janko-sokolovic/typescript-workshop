@@ -1,7 +1,7 @@
 # Typescript Workshop
 Sequel to 	[ng-workshop](https://github.com/jasofalcon/ng-workshop). Transforming app into typescript
 
-# Requirementsx
+# Requirements
 1. Install Visual Studio Code
 2. Install latest version of NPM + NodeJS
 
