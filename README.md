@@ -14,5 +14,10 @@ Sequel to 	[ng-workshop](https://github.com/jasofalcon/ng-workshop). Transformin
  ``` npm install -g webpack-dev-server ```
  
  
- # Starting the app
+# Starting the app
  ``` npm start ```
+
+# Workshop workflow
+Follow next commits during the workshop. After each coding session, checkout the revision to align the state.
+
+1. git checkout 54b5f60  Starting point
