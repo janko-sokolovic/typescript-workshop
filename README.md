@@ -7,11 +7,10 @@ Sequel to 	[ng-workshop](https://github.com/jasofalcon/ng-workshop). Transformin
 
 # Setup environment
 1. Install typescript
- ``` npm install -g typescript ```
-2. Install webpack:
- ``` npm install -g webpack ```
-3. Install webpack-dev-server:
+ ``` npm install -g typescript typings webpack ```
+2. Install webpack-dev-server:
  ``` npm install -g webpack-dev-server ```
+ 
  
  
 # Starting the app
