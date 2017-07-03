@@ -19,4 +19,4 @@ Sequel to 	[ng-workshop](https://github.com/jasofalcon/ng-workshop). Transformin
 # Workshop workflow
 Follow next commits during the workshop. After each coding session, checkout the revision to align the state.
 
-1. git checkout 4c9fb2b  Starting point
+1. git checkout b6e1753 - Starting point
