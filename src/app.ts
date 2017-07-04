@@ -1,9 +1,5 @@
-class Person {
-    constructor(private name: string, private age: number) {
-    }
+import * as angular from "angular";
 
-    public getName():string {
-        return this.name;
-    }
+let app : ng.IModule = angular.module("animals", []);
 
-}
+console.log(app); // throws no error! -> Success!
