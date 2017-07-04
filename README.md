@@ -20,3 +20,4 @@ Sequel to 	[ng-workshop](https://github.com/jasofalcon/ng-workshop). Transformin
 Follow next commits during the workshop. After each coding session, checkout the revision to align the state.
 
 1. git checkout b6e1753 - Starting point
+2. git checkout 6af80cf - App Module added.
