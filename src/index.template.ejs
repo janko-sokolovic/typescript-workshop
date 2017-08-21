@@ -7,7 +7,14 @@
 </head>
 
 <body>
-    
+
+  <div ng-app="animals">
+      <div ng-controller="AnimalsListController as vm" class="list-container">
+          <div ng-repeat="animal in vm.animals" class="animal-name">
+            {{animal.name}}
+          </div>
+      </div>
+  </div>
 
 </body>
 

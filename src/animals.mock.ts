@@ -1,4 +1,6 @@
-const animals = [{
+import Animal from "./animal/animal";
+
+const ANIMALS: Animal[] = [{
   name: "Lion",
   type: "vertebrate",
   habitat: "land"
@@ -96,4 +98,4 @@ const animals = [{
   habitat: "air"
 }]
 
-module.exports = animals;
+export default ANIMALS;
