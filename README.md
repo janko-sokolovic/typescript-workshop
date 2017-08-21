@@ -21,4 +21,4 @@ Follow next commits during the workshop. After each coding session, checkout the
 
 1. git checkout 181cec6 - Starting point
 2. git checkout 5c23dc5 - Module created
-3. git checkout bccc026 - Controller created
+3. git checkout f145ccc - Controller created
