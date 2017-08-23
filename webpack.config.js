@@ -29,7 +29,7 @@ module.exports = {
         }, {
             test: /\.html$/,
             exclude: /node_modules/,
-            loader: 'raw'
+            loader: 'raw-loader'
         }]
     },
     plugins: [
