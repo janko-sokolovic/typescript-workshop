@@ -22,3 +22,4 @@ Follow next commits during the workshop. After each coding session, checkout the
 2. git checkout f33ead4 - Module created
 3. git checkout ea639b8 - Controller created
 4. git checkout b275aed - Routing created
+5. git checkout 7b3f30c - Route params added
