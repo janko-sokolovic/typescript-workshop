@@ -24,3 +24,4 @@ Follow next commits during the workshop. After each coding session, checkout the
 4. git checkout b275aed - Routing created
 5. git checkout 7b3f30c - Route params added
 6. git checkout bb4d9ae - Animal Service and logic extraction
+7. git checkout b60a6e1 - Find animal filter created
