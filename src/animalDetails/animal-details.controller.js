@@ -1,21 +1,11 @@
-const ANIMALS = require('../animals.mock');
 
-function AnimalDetialsController($routeParams) {
+function AnimalDetialsController($routeParams, animalService) {
     let vm = this;
-    if (!$routeParams || !isAnimal($routeParams.animal)) {
+    if (!$routeParams || !animalService.isAnimal($routeParams.animal)) {
         return;
     }
 
-    vm.animal = ANIMALS.find(function(a){return a.name === $routeParams.animal})
-
-
-
-    function isAnimal(animalName) {
-        return ANIMALS.some(function(a) {
-            return a.name === animalName
-        });
-    }
-
+    vm.animal = animalService.getAnimalByName($routeParams.animal);
 }
 
 module.exports = AnimalDetialsController;

@@ -2,7 +2,7 @@ const angular = require('angular');
 const ngRoute = require('angular-route');
 const AnimalsListController = require("./animalsList/animals-list.controller");
 const AnimalDetailsController = require("./animalDetails/animal-details.controller");
-
+const AnimalService = require("./animal/animal.service");
 
 angular.module('app', ['ngRoute'])
     .config(function($routeProvider) {
@@ -16,5 +16,7 @@ angular.module('app', ['ngRoute'])
                 controller: "AnimalDetailsController as vm"
             });
     })
+
     .controller("AnimalsListController", AnimalsListController)
     .controller("AnimalDetailsController", AnimalDetailsController)
+    .factory("animalService", AnimalService)

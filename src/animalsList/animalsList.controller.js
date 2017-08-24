@@ -1,8 +1,7 @@
-const ANIMALS = require("../animals.mock");
 
-function AnimalsListController() {
+function AnimalsListController(animalService) {
     let vm = this;
-    vm.animals = ANIMALS;
+    vm.animals = animalService.getAnimals();
 }
 
 module.exports = AnimalsListController;
