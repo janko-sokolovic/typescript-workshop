@@ -2,15 +2,14 @@
 Sequel to 	[ng-workshop](https://github.com/jasofalcon/ng-workshop). Transforming app into typescript
 
 # Requirements
-1. Install Visual Studio Code
+1. Install Frontend editor (preferably VS Code or Atom)
 2. Install latest version of NPM + NodeJS
 
 # Setup environment
 1. Install typescript
- ``` npm install -g typescript typings webpack ```
-2. Install webpack-dev-server:
- ``` npm install -g webpack-dev-server ```
- 
+ ``` npm install -g typescript typings   ```
+2. Install webpack:
+ ``` npm install -g webpack webpack-dev-server ```
  
  
 # Starting the app
