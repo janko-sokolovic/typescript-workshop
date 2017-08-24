@@ -1,5 +1,5 @@
-
 import * as angular from "angular";
 
+let app: ng.IModule = angular.module("animals", []);
 
-// code here...
+console.log(app.name); // no errors => Success!
