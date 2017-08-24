@@ -5,6 +5,8 @@ import AnimalsListController from "./animalsList/animalsList.controller";
 import AnimalDetailsController from "./animalDetails/animal-details.controller";
 import {AnimalService, IAnimalService} from "./animal/animal.service";
 import FindAnimalFilter from "./animal/find-animal.filter";
+import AnimalDirective from "./animal/animal.directive";
+
 
 let app: ng.IModule = angular.module("animals", ["ngRoute"])
 
@@ -23,4 +25,5 @@ app.config(($routeProvider: ng.route.IRouteProvider) => {
 app.controller("AnimalsListController", AnimalsListController)
   .controller("AnimalDetailsController", AnimalDetailsController)
   .service("animalService", AnimalService)
-  .filter("findAnimal", FindAnimalFilter);
+  .filter("findAnimal", FindAnimalFilter)
+  .directive("animal", () => new AnimalDirective())

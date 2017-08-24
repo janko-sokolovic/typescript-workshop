@@ -4,7 +4,7 @@ const AnimalsListController = require("./animalsList/animals-list.controller");
 const AnimalDetailsController = require("./animalDetails/animal-details.controller");
 const AnimalService = require("./animal/animal.service");
 const FindAnimalFilter = require("./animal/find-animal.filter");
-const AnimalDirective = require("./animal/animal.directive");
+const { AnimalComponent, AnimalComponentController } = require("./animal/animal.component");
 
 angular.module('app', ['ngRoute'])
     .config(function($routeProvider) {
@@ -23,4 +23,5 @@ angular.module('app', ['ngRoute'])
     .controller("AnimalDetailsController", AnimalDetailsController)
     .factory("animalService", AnimalService)
     .filter("findAnimal", FindAnimalFilter)
-    .directive("animal", AnimalDirective)
+    .controller("AnimalComponentController", AnimalComponentController)
+    .component("animal", AnimalComponent())
