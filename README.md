@@ -20,4 +20,4 @@ Follow next commits during the workshop. After each coding session, checkout the
 
 1. git checkout 2e399ea - Starting point
 2. git checkout f33ead4 - Module created
-3. git checkout ??????? - Controller created
+3. git checkout ea639b8 - Controller created
