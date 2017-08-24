@@ -26,3 +26,4 @@ Follow next commits during the workshop. After each coding session, checkout the
 6. git checkout bb4d9ae - Animal Service and logic extraction
 7. git checkout b60a6e1 - Find animal filter created
 8. git checkout 7596e5c - Create Animal directive
+9. git checkout 00145ad - Migrate directive to Component
