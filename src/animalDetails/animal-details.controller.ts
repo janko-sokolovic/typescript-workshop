@@ -1,21 +1,17 @@
 import Animal from "../animal/animal";
-import ANIMALS from "../animals.mock";
+import {IAnimalService} from "../animal/animal.service";
 
 export default class AnimalDetailsController {
 
 private animal: Animal;
 
-  constructor($routeParams: ng.route.IRouteParamsService) {
+  constructor($routeParams: ng.route.IRouteParamsService, animalService: IAnimalService) {
 
-    if (!$routeParams || !this.isAnimal($routeParams.animal)) {
+    if (!$routeParams || !animalService.isAnimal($routeParams.animal)) {
         return;
     }
 
-    this.animal = ANIMALS.filter(a => a.name.toLowerCase() === $routeParams.animal.toLowerCase())[0];
-  }
-
-  isAnimal(animalName: string) :boolean {
-    return ANIMALS.some(a => a.name === animalName);
+    this.animal = animalService.getAnimalByName($routeParams.animal);
   }
 
 }

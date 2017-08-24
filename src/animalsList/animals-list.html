@@ -1,5 +1,13 @@
-<div class="list-container">
-    <div ng-repeat="animal in vm.animals" class="animal-name">
-        {{animal.name}}
+<div>
+    <div class="input-field-wrapper">
+        <input type="text"
+        ng-model="vm.searchInput"
+        class="search-field"
+        placeholder="Filter animals..." />
+    </div>
+    <div class="list-container">
+        <div ng-repeat="animal in vm.animals | findAnimal:vm.searchInput" class="animal-name">
+            {{animal.name}}
+        </div>
     </div>
 </div>

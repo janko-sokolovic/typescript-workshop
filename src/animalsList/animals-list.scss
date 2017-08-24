@@ -2,10 +2,32 @@
     background: #fff;
     width: 900px;
     margin: 40px auto;
+    box-shadow: 0 0 5px rgba(40,40,40,0.6);
+
+    .animal-name {
+        display: inline-block;
+        font-size: 16px;
+        margin: 5px;
+    }
 }
 
-.animal-name {
-    display: inline-block;
-    font-size: 16px;
-    margin: 5px;
+.input-field-wrapper {
+    margin: 30px auto;
+    width: 200px;
+
+    .search-field {
+        width: 100%;
+        border: none;
+        padding: 8px 14px;
+        border-radius: 5px;
+        border-bottom: 3px solid #aaa;
+        font-size:18px;
+        color:#666;
+
+        &:focus {
+            border: none;
+            outline: none;
+            border-bottom: 3px solid #6a6;
+        }
+    }
 }

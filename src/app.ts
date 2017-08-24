@@ -3,6 +3,7 @@ import "angular-route";
 
 import AnimalsListController from "./animalsList/animalsList.controller";
 import AnimalDetailsController from "./animalDetails/animal-details.controller";
+import {AnimalService, IAnimalService} from "./animal/animal.service";
 
 let app: ng.IModule = angular.module("animals", ["ngRoute"])
 
@@ -19,4 +20,5 @@ app.config(($routeProvider: ng.route.IRouteProvider) => {
 });
 
 app.controller("AnimalsListController", AnimalsListController)
-  .controller("AnimalDetailsController", AnimalDetailsController);
+  .controller("AnimalDetailsController", AnimalDetailsController)
+  .service("animalService", AnimalService);
