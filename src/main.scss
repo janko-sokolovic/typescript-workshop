@@ -1,14 +1,15 @@
 @import "animalsList/animals-list.scss";
 @import "animalDetails/animal-details.scss";
-
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300');
+@import "animal/animal.scss";
+@import url( 'https://fonts.googleapis.com/css?family=Roboto+Condensed:300');
 
 body {
-  padding:20px;
+    padding: 20px;
     background: #dfdfdf;
     margin: 0;
 }
 
 * {
-  font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-decoration: none;
 }
