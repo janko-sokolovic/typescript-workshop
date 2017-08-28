@@ -1,8 +1,8 @@
 # Typescript Workshop
-Sequel to 	[ng-workshop](https://github.com/jasofalcon/ng-workshop). Transforming app into typescript
+Sequel to 	[ng-workshop](https://github.com/jasofalcon/ng-workshop). Transforming app into typescript!
 
 # Requirements
-1. Install Frontend editor (preferably VS Code or Atom)
+1. Install Frontend editor (VS code is recommended as it provides best support for typescript)
 2. Install latest version of NPM + NodeJS
 
 # Setup environment
@@ -28,3 +28,4 @@ Follow next commits during the workshop. After each coding session, checkout the
 8. git checkout 7596e5c - Create Animal directive
 9. git checkout 00145ad - Migrate directive to Component
 10. git checkout 823f212 - Introduce tslint
+11. git checkout 85b81e5 - Fix linting issues
