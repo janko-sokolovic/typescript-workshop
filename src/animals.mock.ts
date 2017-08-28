@@ -1,6 +1,6 @@
 import Animal from "./animal/animal";
 
-var ANIMALS: Animal[] = [{
+const ANIMALS: Animal[] = [{
   name: "Lion",
   type: "vertebrate",
   habitat: "land"
@@ -96,6 +96,6 @@ var ANIMALS: Animal[] = [{
   name: "Eagle",
   type: "vertebrate",
   habitat: "air"
-},];
+}];
 
 export default ANIMALS;

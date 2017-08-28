@@ -8,7 +8,7 @@ import FindAnimalFilter from "./animal/find-animal.filter";
 import {AnimalComponent} from "./animal/animal.component";
 
 
-var app = angular.module("animals", ["ngRoute"]);
+let app = angular.module("animals", ["ngRoute"]);
 
 
 app.config(($routeProvider: ng.route.IRouteProvider) => {
@@ -28,4 +28,4 @@ app
   .controller("AnimalDetailsController", AnimalDetailsController)
   .service("animalService", AnimalService)
   .filter("findAnimal", FindAnimalFilter)
-  .component("animal", new AnimalComponent())
+  .component("animal", new AnimalComponent());
