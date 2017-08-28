@@ -8,13 +8,13 @@ export default class FindAnimalFilter {
         return input;
       }
       
-      let filtered = input.filter(a => {
+      let filtered = input.filter( a => {
         if (a.name.toLowerCase().indexOf(searchQuery.toLowerCase()) !== -1) {
           return a;
         }
       });
       return filtered;
-    }
+    };
 
   }
 }

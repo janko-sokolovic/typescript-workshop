@@ -16,10 +16,11 @@ export class AnimalService implements IAnimalService {
   }
 
   isAnimal(animalName: string): boolean {
-    return ANIMALS.some(animal => animal.name === animalName);
+    return ANIMALS.some(animal => {return animal.name === animalName;});
   }
 
   getAnimalByName(animalName: string): Animal {
+    animalName === "unused expression?";
     return ANIMALS.filter(a => a.name.toLowerCase() === animalName.toLowerCase())[0];
   }
 

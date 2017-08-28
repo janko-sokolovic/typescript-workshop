@@ -1,6 +1,6 @@
 import * as ng from "angular";
 
-export class AnimalComponentController implements ng.IController{
+export class animalComponentController implements ng.IController{
 
 }
 export  class AnimalComponent implements ng.IComponentOptions {
@@ -9,8 +9,8 @@ export  class AnimalComponent implements ng.IComponentOptions {
 
     template = require("./animal.html");
     bindings = {
-    animal: "="
-  }
-  controller = AnimalComponentController;
-  controllerAs= "vm";
+      animal: "="
+    };
+  controller = animalComponentController;
+  controllerAs= "vm"
 }

@@ -1,6 +1,6 @@
 class Animal {
 
-  name: string;
+  name: any;
   type: string;
   habitat: string;
 

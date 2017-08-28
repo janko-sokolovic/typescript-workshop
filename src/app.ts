@@ -8,7 +8,8 @@ import FindAnimalFilter from "./animal/find-animal.filter";
 import {AnimalComponent} from "./animal/animal.component";
 
 
-let app: ng.IModule = angular.module("animals", ["ngRoute"])
+var app = angular.module("animals", ["ngRoute"]);
+
 
 app.config(($routeProvider: ng.route.IRouteProvider) => {
   $routeProvider
