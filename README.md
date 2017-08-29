@@ -25,7 +25,7 @@ Follow next commits during the workshop. After each coding session, checkout the
 5. git checkout 7b3f30c - Route params added
 6. git checkout bb4d9ae - Animal Service and logic extraction
 7. git checkout b60a6e1 - Find animal filter created
-8. git checkout 7596e5c - Create Animal directive
+8. git checkout 7b96e5c - Create Animal directive
 9. git checkout 00145ad - Migrate directive to Component
 10. git checkout 823f212 - Introduce tslint
 11. git checkout 85b81e5 - Fix linting issues
