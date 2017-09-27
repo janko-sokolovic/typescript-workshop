@@ -6,11 +6,9 @@ Sequel to 	[ng-workshop](https://github.com/jasofalcon/ng-workshop). Transformin
 2. Install latest version of NPM + NodeJS
 
 # Setup environment
-1. Install typescript
- ``` npm install -g typescript typings   ```
-2. Install webpack:
- ``` npm install -g webpack webpack-dev-server ```
  
+ ``` npm i ```
+
  
 # Starting the app
  ``` npm start ```
