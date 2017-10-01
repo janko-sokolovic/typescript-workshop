@@ -96,6 +96,6 @@ const ANIMALS: Animal[] = [{
   name: "Eagle",
   type: "vertebrate",
   habitat: "air"
-}];
+}]
 
 export default ANIMALS;
