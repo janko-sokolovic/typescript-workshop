@@ -1,5 +1,8 @@
 import * as angular from "angular";
+import "angular-route";
+
+import AnimalsListController from "./animalsList/animalsList.controller";
 
 let app: ng.IModule = angular.module("animals", []);
 
-console.log(app.name); // no errors => Success!
+app.controller("AnimalsListController", AnimalsListController);

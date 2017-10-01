@@ -8,8 +8,11 @@
 
 <body>
 
-    <div ng-app="animals"></div>
-
+   <div ng-app="animals">
+     <div ng-controller="AnimalsListController as vm">
+      <div ng-repeat="animal in vm.animals"> {{animal.name}}</div>
+     </div>
+   </div>
 </body>
 
 </html>
