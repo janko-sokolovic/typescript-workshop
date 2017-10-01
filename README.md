@@ -18,7 +18,7 @@ Follow next commits during the workshop. After each coding session, checkout the
 
 1. git checkout 2e399ea - Starting point
 2. git checkout a43a72e - Module created
-3. git checkout a8c0a4b - Controller created
+3. git checkout cb9af0e - Controller created
 4. git checkout b275aed - Routing created
 5. git checkout 7b3f30c - Route params added
 6. git checkout bb4d9ae - Animal Service and logic extraction
