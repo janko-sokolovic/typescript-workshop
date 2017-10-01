@@ -1,0 +1,26 @@
+{
+    "defaultSeverity": "error",
+    
+    "rules": {
+        "new-parens": true,
+        "no-arg": true,
+        "no-conditional-assignment": true,
+        "no-consecutive-blank-lines": false,
+        "no-any": true,
+        "no-var-keyword": true,
+        "no-inferrable-types": true,
+        "no-magic-numbers": true,
+        "no-reference": true,
+        "only-arrow-functions": true,
+        "no-unused-expression": true,
+        "triple-equals": true,
+        "trailing-comma": [true, {"multiline": "never", "singleline": "never"}],
+        "arrow-return-shorthand": true,
+        "class-name": true,
+        "semicolon": [true, "always"]
+        
+            
+        
+    }
+    
+}

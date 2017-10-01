@@ -19,18 +19,26 @@ module.exports = {
     devtool: "eval",
 
     module: {
-        loaders: [{
-            test: /\.scss$/,
-            loader: ExtractTextPlugin.extract(['css-loader', 'sass-loader'])
-        }, {
-            test: /\.tsx?$/,
-            loader: 'awesome-typescript-loader',
-            exclude: /(node_modules)/
-        }, {
-            test: /\.html$/,
-            exclude: /node_modules/,
-            loader: 'raw-loader'
-        }]
+        rules: [
+            {
+                test: /\.tsx?$/,
+                enforce: 'pre',
+                loader: 'tslint-loader',
+                options: { emitErrors: true }
+              },
+            {
+                test: /\.scss$/,
+                loader: ExtractTextPlugin.extract(['css-loader', 'sass-loader'])
+            },{
+                test: /\.tsx?$/,
+                loader: 'awesome-typescript-loader',
+                exclude: /(node_modules)/
+            }, {
+                test: /\.html$/,
+                exclude: /node_modules/,
+                loader: 'raw-loader'
+            }
+        ]
     },
     plugins: [
         new HtmlWebpackPlugin({ template: './src/index.template.ejs', inject: 'body' }),
