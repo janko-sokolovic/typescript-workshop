@@ -1,10 +1,10 @@
-import ANIMALS from "../animals.mock";
- import Animal from "../animal/animal";
- 
- export default class AnimalsListController {
-   animals: Animal[];
+import Animal from "../animal/animal";
+import {IAnimalService} from "../animal/animal.service";
 
-  constructor(){
-    this.animals = ANIMALS;
-   }
- }
+export default class AnimalsListController {
+  animals: Animal[];
+
+  constructor(animalService: IAnimalService){
+    this.animals = animalService.getAnimals();
+  }
+}
